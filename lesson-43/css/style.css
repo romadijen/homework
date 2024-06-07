@@ -1,0 +1,259 @@
+body {
+    width: 1440px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 1791px;
+    background-color: #181e34;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+header {
+    height: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    line-height: 24px;
+    line-height: 150%;
+    width: 895px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 410px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 34px;
+    width: 437px;
+    height: 48px;
+}
+
+.menu1 {
+    display: flex;
+    gap: 30px;
+    width: 290px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.menu-button {
+    border-radius: 100px;
+    padding: 14px 30px;
+    width: 113px;
+    height: 48px;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2766AE;
+}
+
+.hero-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../img/hero.jpg");
+    height: 508px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.hero-content {
+    display: flex;
+    gap: 144px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text {
+    max-width: 436px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-1 {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.lorem {
+    font-weight: 700;
+    font-size: 16px;
+    color: #01a2cb;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 18px 0;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 18px 30px;
+    width: 320px;
+    height: 56px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    font-weight: 500;
+    font-size: 16px;
+    flex-direction: row-reverse;
+    gap: 4px;
+}
+
+.hero-bottom {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    max-width: 513px;
+    max-height: 112px;
+    gap: 15px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+    /* margin-bottom: 15px; */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 310px;
+    margin: 60px 270px 0 270px;
+    gap: 28px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    padding: 28px;
+    max-width: 204px;
+    max-height: 141px;
+    box-shadow: 4px 4px 13px 0 rgba(5, 13, 41, 0.76);
+    background: #197cb8;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 150%;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.button-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 18px 30px;
+    width: 436px;
+    height: 56px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 120px;
+    height: 361px;
+    border-top: 1px solid #323952;
+}
+
+.footer-container {
+    display: flex;
+    margin: 60px 359px 60px 270px;
+    width: 811px;
+    height: 241px;
+}
+
+.footer-text {
+    width: 267px;
+    height: 159px;
+    background: url(../img/лого.png) no-repeat;
+    padding-top: 63px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.column-one {
+    display: flex;
+    flex-direction: column;
+    margin-left: 197px;
+    margin-right: 117px;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.column-two {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.column-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
