@@ -41,7 +41,7 @@ const users = [
     }
 ]
 
-const regularUsersCount = 0
+let regularUsersCount = 0
 
 for (let i = 0; i<users.length; i++) {
     if (users[i].isAdmin === false) {
